@@ -33,10 +33,10 @@ dependencies{
     compileOnly "com.github.Anuken.Mindustry:core:$mindustryVersion"
 }
 
-kotlin{
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
-}
+// kotlin{
+//     sourceCompatibility = JavaVersion.VERSION_1_8
+//     targetCompatibility = JavaVersion.VERSION_1_8
+// }
 
 task jarAndroid{
     dependsOn "jar"
